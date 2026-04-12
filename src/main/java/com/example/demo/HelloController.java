@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello(){
-        return  "Hello from java Spring Boot application Using the CICD pipeline and Docker with Github Actions";
+        return "Hello from java Spring Boot application Using the CICD pipeline and Docker with Github Actions";
     }
 }
