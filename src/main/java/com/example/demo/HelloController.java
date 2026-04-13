@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello(){
-        return "Hello from java Spring Boot application Using the CICD pipeline.......";
+        return "Application running on server...";
     }
 }
