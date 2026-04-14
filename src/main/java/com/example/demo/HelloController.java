@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello(){
-        return "Application running on server using the Docker and CICD pipeline....";
+        return "Application running on server using the Docker and CICD pipeline";
     }
 }
