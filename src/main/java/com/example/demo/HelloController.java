@@ -7,6 +7,6 @@ public class HelloController {
 
     @GetMapping("/")
     public userController hello(){
-        return new userController("Shivam..","Mobile & DevOps Engineer..");
+        return new userController("Shivam.","Mobile & DevOps Engineer.");
     }
 }

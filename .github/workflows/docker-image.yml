@@ -96,4 +96,4 @@ jobs:
             sudo docker pull shivam4605/spring_app:latest
             sudo docker stop spring_app || true
             sudo docker rm spring_app || true
-            sudo docker run -d -p 8080:8080 --name spring_app shivam4605/spring_app:latest
+            sudo docker run -d -p 8081:8080 --name spring_app shivam4605/spring_app:latest
