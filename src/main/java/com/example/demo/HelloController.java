@@ -13,6 +13,7 @@ public class HelloController {
 
         List<UserController> list = new ArrayList<>();
 
+        list.add(new UserController("Sam Desuja","DevSecOps Engineer"));
         list.add(new UserController("Jon Deo","Mobile Engineer"));
         list.add(new UserController("Recherson pari","DevOps Engineer"));
         list.add(new UserController("Sam Desuja","DevSecOps Engineer"));
