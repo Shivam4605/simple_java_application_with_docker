@@ -1,10 +1,10 @@
 package com.example.demo;
-public class UserController{
+public class userController{
 
     public String name;
     public String devType;
 
-    public UserController(String name,String devType){
+    public userController(String name,String devType){
         this.name = name;
         this.devType = devType;
     }
