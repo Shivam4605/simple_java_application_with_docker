@@ -93,7 +93,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           debug: true
           script: |
-            docker pull ${{ secrets.DOCKER_USER }}/spring_app:latest
-            docker stop spring_app || true
-            docker rm spring_app || true
-            docker run -d -p 8080:8080 --name spring_app ${{ secrets.DOCKER_USER }}/spring_app:latest
+            sudo docker pull ${{ secrets.DOCKER_USER }}/spring_app:latest
+            sudo docker stop spring_app || true
+            sudo docker rm spring_app || true
+            sudo docker run -d -p 8080:8080 --name spring_app ${{ secrets.DOCKER_USER }}/spring_app:latest
