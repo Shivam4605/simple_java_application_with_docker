@@ -1,5 +1,4 @@
 package com.example.demo;
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/")
-    public String hello(){
-        return "Application running on server using the CI and Docker";
+    public userController hello(){
+        return new userController("Shivam","Mobile & DevOps Engineer");
     }
 }
