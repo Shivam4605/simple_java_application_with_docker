@@ -14,9 +14,9 @@ public class HelloController {
 
         List<userController> list = new ArrayList<>();
 
-        list.add(new userController("Jon Deo.","Mobile Engineer."));
-        list.add(new userController("Recherson pari.","DevOps Engineer."));
-        list.add(new userController("Sam Desuja.","DevSecOps Engineer."));
+        list.add(new userController("Jon Deo","Mobile Engineer"));
+        list.add(new userController("Recherson pari","DevOps Engineer"));
+        list.add(new userController("Sam Desuja","DevSecOps Engineer"));
         return list;
     }
 }
