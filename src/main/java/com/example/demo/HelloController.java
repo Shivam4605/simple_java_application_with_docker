@@ -8,15 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    @GetMapping("/users")
+    public List<UserController> hello(){
 
-    @GetMapping("/")
-    public List<userController> hello(){
+        List<UserController> list = new ArrayList<>();
 
-        List<userController> list = new ArrayList<>();
-
-        list.add(new userController("Jon Deo","Mobile Engineer"));
-        list.add(new userController("Recherson pari","DevOps Engineer"));
-        list.add(new userController("Sam Desuja","DevSecOps Engineer"));
+        list.add(new UserController("Jon Deo","Mobile Engineer"));
+        list.add(new UserController("Recherson pari","DevOps Engineer"));
+        list.add(new UserController("Sam Desuja","DevSecOps Engineer"));
         return list;
     }
 }
